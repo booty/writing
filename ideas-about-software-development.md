@@ -36,12 +36,10 @@ There shouldn't be any real surprises at review time. All the major issues shoul
 Don't let your programmers go dark. Don't hover over them, either. Daily standup meetings are a happy medium. Management and developers should have a shared understanding of what everybody's doing today and (at a minimum) for the next week.
 
 ## A Task Management System Isn't Optional
-In the beginning, this can be as simple as a shared Google Doc of things to do. At some point you will outgrow this.
+In the beginning, this can be as simple as a shared Google Doc of things to do. At some point you will outgrow this, but a spreadsheet can take you pretty far at first.
 
 ## Continuous Integration / Continuous Deployment Probably Aren't Optional
-You have to test your code. And you have to deploy the tested code. For projects of non-trival size, you should automate this stuff.
-
-Continuous Deployment lets you find problems as soon as code hits your repository. Continuous Integration lets you get tested code to production with less friction.
+You have to test your code. And you have to deploy the tested code. For projects of non-trival size, you should automate this stuff. Continuous Integration lets you find problems as soon as code hits your repository. Continuous Deployment lets you get tested code to production with less friction.
 
 ## Long-Lived Software: Knowledge Transfer Might Be Your Biggest Challenge
 In Joel Spolsky's famous essay *[Things You Should Never Do, Part I](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/)* he talks about all the nasty, hard-won knowledge that winds up embedded in your code.
