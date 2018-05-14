@@ -106,10 +106,10 @@ Make your shop a destination for developers... but not a final destination. Help
 ## Your Programmers Have Lives
 Don't burn them out. Don't make them choose between "working for you" and "getting enough sleep" or "having a life."
 
-Get this wrong and you'll wind up with a cadre of developers who are better at staying up all night than they are at delivering quality work and caring about your business.
+Get this wrong and you'll wind up with a cadre of developers who are better at staying up all night than they are at delivering quality work and caring about your business. You'll push out people with families and healthy lifestyles. People can't deliver much more than 40 hours' worth of productivity per week anyway, even if they work 60. Or 80.
 
 ## Patterns and Frameworks, If Possible
-When feasible, use frameworks and/or well-known architecture patterns. Frameworks have done much of the grunt work for you, and well-known patterns help new coders get up to speed quickly.
+When feasible, use frameworks and/or well-known architecture patterns. Frameworks have done much of the grunt work for you, and well-known patterns help new coders wrap their heads around things quickly.
 
 No framework or pattern is perfect. Don't let that stop you from using one. Because, let's face it, your app *probably* isn't so novel that it requires a pattern nobody's ever thought of before.
 
@@ -136,8 +136,8 @@ Want to demonstrate to your developers how little you care about their opinions,
 
 Hire a new developer without talking to them first.
 
-Or, you could involve them in the hiring process. Discuss the position that's being created. Discuss the values, skills, and traits you're looking for in a developer. Perhaps the new position involves skills or interests that your existing team already has, and you just didn't know it. Great time to learn about your team's interests, and the skills they developed while you weren't looking!
+Or, you could involve them in the hiring process. Discuss the values, skills, and traits you're looking for in a new developer. Perhaps the new position involves skills or interests that your existing team already has, and you just didn't know it. Great time to learn about your team's interests, and the skills they developed while you weren't looking!
 
 Once a candidate has passed their initial interview (they can write [fizzbuzz](http://wiki.c2.com/?FizzBuzzTest), and are seriously being considered for hire) let them meet the team. This helps your candidate *and* the team feel valued and comfortable.
 
-**Observation:** In general, asking for and listening to advice from others is one of the most powerful ways to demonstrate your belief in their worth. Listening is not a binding obligation to do what they say. They will be fine with that. Reasonable people don't want to be slavishly obeyed, but they *do* want to be heard.
+**Observation:** In general, asking for and listening to advice from others is one of the most powerful ways to demonstrate your belief in their worth. Listening to someone is not a binding obligation to do what they say. They will be fine with that. Reasonable people don't want to be slavishly obeyed, but they *do* need to be heard.
