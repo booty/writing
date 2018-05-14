@@ -25,7 +25,7 @@ This one's easy. No excuse for getting it wrong.
 ## A Test Suite Isn't Optional
 Requires some upfront and ongoing effort. This is how you know your software works. It's also a lot cheaper than human testing. Let your human support staff handle the tricky stuff; automated tests should handle the drudgery.
 
-**Corollary:** The test suite is part of your software. Therefore It requires maintainance and optimization.
+**Corollary:** The test suite is part of your software. Therefore it requires maintainance and optimization.
 
 ## Code Review Isn't Optional
 This is a great opportunity to make code better, and ensure it's as good as it can be before it gets merged. Egos must be left at the door. Feedback must be constructive and actionable: a high percentage of your comments' on others' PRs should probably include code/pseudocode.
