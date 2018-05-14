@@ -28,14 +28,12 @@ Requires some upfront and ongoing effort. This is how you know your software wor
 **Corollary:** The test suite is part of your software. Therefore It requires maintainance and optimization.
 
 ## Code Review Isn't Optional
-This is a great opportunity to make code better, and ensure it's as good as it can be before it gets merged.
+This is a great opportunity to make code better, and ensure it's as good as it can be before it gets merged. Egos must be left at the door. Feedback must be constructive and actionable: a high percentage of your comments' on others' PRs should probably include code/pseudocode.
 
-Egos must be left at the door.
-
-There shouldn't be any real surprises at review time because all the major issues should be discussed before that point.
+There shouldn't be any real surprises at review time. All the major issues should have been discussed before that point.
 
 ## Daily Standups Probably Aren't Optional
-Don't let your programmers go dark. Don't hover over them, either. Daily standup meetings are a happy medium. Management and developers should have a shared understanding of what everybody's doing today and, at a minimum, for the next week.
+Don't let your programmers go dark. Don't hover over them, either. Daily standup meetings are a happy medium. Management and developers should have a shared understanding of what everybody's doing today and (at a minimum) for the next week.
 
 ## A Task Management System Isn't Optional
 In the beginning, this can be as simple as a shared Google Doc of things to do. At some point you will outgrow this.
@@ -46,7 +44,7 @@ You have to test your code. And you have to deploy the tested code. For projects
 Continuous Deployment lets you find problems as soon as code hits your repository. Continuous Integration lets you get tested code to production with less friction.
 
 ## Long-Lived Software: Knowledge Transfer Might Be Your Biggest Challenge
-In Joel Spolsky's famous essay *Things You Should Never Do, Part I* he talks about all the nasty, hard-won knowledge that winds up embedded in your code.
+In Joel Spolsky's famous essay *[Things You Should Never Do, Part I](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/)* he talks about all the nasty, hard-won knowledge that winds up embedded in your code.
 
 ```
 Yes, I know, it’s just a simple function to display a window, but it has grown
@@ -65,7 +63,7 @@ might even be a couple of characters, but a lot of work and time went into those
 two characters.
 ```
 
-Code that deals with "the real world" can never be as pure as an algorithm from a Donald Knuth book.
+Code that deals with "the real world" can never be as pure as an algorithm from a college textbook.
 
 That knowledge cost your company time and therefore money. Also quite possibly tears, sweat, and blood. Will your next developer have to re-discover it? How many times are you willing to pay that (possibly large) cost?
 
