@@ -138,4 +138,6 @@ Hire a new developer without talking to them first.
 
 Or, you could involve them in the hiring process. Discuss the position that's being created. Discuss the values, skills, and traits you're looking for in a developer. Perhaps the new position involves skills or interests that your existing team already has, and you just didn't know it. Great time to learn about your team's interests, and the skills they developed while you weren't looking!
 
-Once a candidate has passed their initial interview (they can write fizzbuzz, and are seriously being considered for hire) let them meet the team. This helps your candidate *and* the team feel valued and comfortable.
+Once a candidate has passed their initial interview (they can write [fizzbuzz](http://wiki.c2.com/?FizzBuzzTest), and are seriously being considered for hire) let them meet the team. This helps your candidate *and* the team feel valued and comfortable.
+
+**Observation:** In general, asking for and listening to advice from others is one of the most powerful ways to demonstrate your belief in their worth. Listening is not a binding obligation to do what they say. They will be fine with that. Reasonable people don't want to be slavishly obeyed, but they *do* want to be heard.
