@@ -131,3 +131,13 @@ Use every data integrity tool your database offers. Data format/length constrain
 If your database offers these constraints and you think you don't need them, rethink your relationship to the data. Perhaps you don't care about your data as much as you ought to. Perhaps your data's correctness truly isn't thaaaat big a dealand you should simply use a more lightweight database, such as a time-series database or other "NoSQL" store instead of an RDBMS.
 
 **Corollary:** Framework of choice treats these constraints as an afterthought? Maybe it's a good framework, but you should view all of its other data-related decisions with a very critical eye. How many of those other design decisions are also wrong? (This is about you, Rails)
+
+## Your Developers Should Talk To Potential Hires
+
+Want to demonstrate to your developers how little you care about their opinions, experiences, or talent?
+
+Hire a new developer without talking to them first.
+
+Or, you could involve them in the hiring process. Discuss the position that's being created. Discuss the values, skills, and traits you're looking for in a developer. Perhaps the new position involves skills or interests that your existing team already has, and you just didn't know it. Great time to learn about your team's interests, and the skills they developed while you weren't looking!
+
+Once a candidate has passed their initial interview (they can write fizzbuzz, and are seriously being considered for hire) let them meet the team. This helps your candidate *and* the team feel valued and comfortable.
