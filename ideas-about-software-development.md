@@ -72,11 +72,9 @@ Some people say that "good code" is "self-documenting" and "doesn't need human-r
 
 Those people are deeply wrong.
 
-Code, by itself, tells you *what* is happening. It can never tell you *why,* especially if the *whys* are are things that took blood, sweat and tears to discover.
+Code, by itself, tells you *what* is happening. It can never tell you *why,* especially if the *whys* are are things that took blood, sweat and tears to discover. Anything in the code that's not blindingly obvious *needs* a comment next to or above it.
 
-Anything in the code that's not blindingly obvious? It needs a comment next to or above it.
-
-**Corollary:** Inline docs (code comments) are preferable to decoupled documentation, as they're less prone to bit rot. Only a true sociopath would update a line of code while ignoring the comment that's literally one line above it. Commit messages are nice too, but it can be unclear which ones are still relevant at a particular point in time.
+**Corollary:** Code comments are inline and therefore preferable to decoupled documentation, as they're less prone to bit rot. Only a true sociopath would update a line of code while ignoring the comment that's literally one line above it. Commit messages are nice too, but it can be unclear which ones are still relevant at a particular point in time.
 
 **Corollary:** At review time, reject code that doesn't respect this notion. You're never going to go back and comment it later. Do it now.
 
