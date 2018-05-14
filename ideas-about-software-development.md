@@ -126,9 +126,9 @@ If they don't care about the company and their work... why are you paying them, 
 
 Use every data integrity tool your database offers. Data format/length constraints, nullability constraints, foreign key constraints, and uniqueness constraints. They are faster and more reliable at the database level than the application level, and will remain consistent across apps if you've more than one app writing to this database.
 
-If your database offers these constraints and you think you don't need them, rethink your relationship to the data. Perhaps you don't care about your data as much as you ought to. Perhaps your data's correctness truly isn't thaaaat big a dealand you should simply use a more lightweight database, such as a time-series database or other "NoSQL" store instead of an RDBMS.
+If your database offers these constraints and you think you don't need them, rethink your relationship to the data. Perhaps you don't care about your data as much as you ought to. Perhaps your data's correctness truly isn't thaaaat big a deal. If not, consider a more lightweight database, such as a time-series database or other "NoSQL" store instead of an RDBMS.
 
-**Corollary:** Framework of choice treats these constraints as an afterthought? Maybe it's a good framework, but you should view all of its other data-related decisions with a very critical eye. How many of those other design decisions are also wrong? (This is about you, Rails)
+**Corollary:** Framework of choice treats these constraints as an afterthought? Maybe it's a good framework in other regards and still worth using, but you should view all of its other data-related decisions with a very critical eye. How many of those are wrong, too? (This is about you, Rails)
 
 ## Your Developers Should Talk To Potential Hires
 
