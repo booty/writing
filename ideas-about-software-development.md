@@ -78,7 +78,7 @@ Anything in the code that's not blindingly obvious? It needs a comment next to o
 
 **Corollary:** Inline docs (code comments) are preferable to decoupled documentation, as they're less prone to bit rot. Only a true sociopath would update a line of code while ignoring the comment that's literally one line above it. Commit messages are nice too, but it can be unclear which ones are still relevant at a particular point in time.
 
-**Corollary:** At review time, reject code that doesn't respect this notion. You're never going to go back and do it later. Do it now.
+**Corollary:** At review time, reject code that doesn't respect this notion. You're never going to go back and comment it later. Do it now.
 
 **Corollary:** Weird workaround in your code? Your comments should include a link to some relevant URLs: Stack Overflow threads, Github issues, etc. They will help future coders know *why* you're doing that weird thing. It will help them to understand if that issue is still relevant in the future, because someday they'll try to figure out if your ugly workaround needs to exist.
 
