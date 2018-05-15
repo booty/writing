@@ -1,11 +1,7 @@
-*Note: this document is extremely "beta." Work in progress. Needs grammar/spelling fixes; ought to be more concise, etc.*
-
 # Ideas About Software Development
+This isn't a list of rules or demands. **It's a conversation starter.**
 
-This isn't a list of rules or demands. It's the beginning of a discussion.
-
-Not everybody will agree on all of these and that's okay. ❤️
-
+We won't agree on all of these and that's okay. ❤️
 
 ## The purpose of software development is to help the business make money.
 Nothing else matters if this isn't happening.
@@ -23,7 +19,7 @@ This one's easy. No excuse for getting it wrong.
 **Corollary:** If you're outsourcing your development, the code needs to be in a public repository so that they can't hold it hostage. If they have a problem with this, they're probably ripping you off.
 
 ## A Test Suite Isn't Optional
-Requires some upfront and ongoing effort. This is how you know your software works. It's also a lot cheaper than human testing. Let your human support staff handle the tricky stuff; automated tests should handle the drudgery.
+This is how you know your software works. It's also a lot cheaper than human testing. Let your human support staff handle the tricky stuff; automated tests should handle the drudgery.
 
 **Corollary:** The test suite is part of your software. Therefore it requires maintainance and optimization.
 
@@ -76,28 +72,26 @@ Code, by itself, tells you *what* is happening. It can never tell you *why,* esp
 
 **Corollary:** At review time, reject code that doesn't respect this notion. You're never going to go back and comment it later. Do it now.
 
-**Corollary:** Weird workaround in your code? Your comments should include a link to some relevant URLs: Stack Overflow threads, Github issues, etc. They will help future coders know *why* you're doing that weird thing. It will help them to understand if that issue is still relevant in the future, because someday they'll try to figure out if your ugly workaround needs to exist.
+**Corollary:** Weird workaround in your code? Your comments should include a link to some relevant URLs: Stack Overflow threads, Github issues, etc. They will help future coders know *why* you're doing that weird thing. Someday they'll try to figure out if your ugly workaround still needs to exist.
 
-**Corollary to the Corollary:** The "future coder" might be you. We've all looked at our past code and struggled to remember why we did a thing.
+**Corollary to the Corollary:** The "future coder" might be you.
 
 ## Knowledge Transfer II: Active Mentoring Wins. "I'm Here If You Need Me" Stinks.
 If Developer A has written a significant bit of code, don't expect Developer B to step in and be proficient without a transition period. This might be weeks or even months.
 
 You can compress this timeframe significantly by having A and B pair at the outset of this transition. B will be happer, too!
 
-**Corollary:** If A or B are uncomfortable or unwilling, this is one of the largest red flags imaginable.
-
 ## Feedback Loops Are Key
 When your developers write code, how quickly can they run it and see results?
 
-Their productivity is tied very closely to the speed of this feedback loop. Do whatever it takes to reduce this friction.
+Their productivity is tied to the speed of this feedback loop. Do whatever it takes to reduce this friction.
 
-The answers to this are *highly* varied. Might mean making sure they have fast machines to build code faster. Might mean making sure the local development environment is an easy-to-install, easy-to-update set of Docker containers. Maybe it's both of those things, and maybe it's five other things.
+The answers to this are *highly* varied from project to project, but it is always a top priority.
 
 ## Your Programmers Have Careers
-Make your shop a destination for developers... but not a final destination. Help them keep their skills current. Don't make them choose between "working for you" and "keeping their career alive."
+Make your shop a destination for developers... not a final destination. Help them keep their skills current. Don't make them choose between working for you and keeping their career alive.
 
-**Corollary:** This means you need to invest time and resources to keep your infrastructure current.  (A pleasant side effect: those software upgrades generally bring bugfixes and security improvements)
+**Corollary:** This means you need to invest time and resources to keep your infrastructure current... and attractive to developers. If your operation is strictly COBOL, you might need to pay your developers double.
 
 ## Your Programmers Have Lives
 Don't burn them out. Don't make them choose between "working for you" and "getting enough sleep" or "having a life."
@@ -105,9 +99,9 @@ Don't burn them out. Don't make them choose between "working for you" and "getti
 Get this wrong and you'll wind up with a cadre of developers who are better at staying up all night than they are at delivering quality work and caring about your business. You'll push out people with families and healthy lifestyles. People can't deliver much more than 40 hours' worth of productivity per week anyway, even if they work 60. Or 80.
 
 ## Patterns and Frameworks, If Possible
-When feasible, use frameworks and/or well-known architecture patterns. Frameworks have done much of the grunt work for you, and well-known patterns help new coders wrap their heads around things quickly.
+When feasible, use frameworks and/or well-known architecture patterns. They reduce grunt work and help new coders wrap their heads around things quickly.
 
-No framework or pattern is perfect. Don't let that stop you from using one. Because, let's face it, your app *probably* isn't so novel that it requires a pattern nobody's ever thought of before.
+No framework or pattern is perfect. Don't let that stop you from using them. Let's face it, your app *probably* isn't so novel that it requires a pattern nobody's ever thought of before.
 
 **Anecdote:** I worked on a 600,000+ LOC Rails monolith. Say what you will about the darned thing, but it was remarkably easy to find where any particular thing lived. Thanks, MVC.
 
@@ -116,18 +110,14 @@ Don't hand your developers a UI design or API doc and expect them to implement i
 
 If they care about the company and their work, they will have feedback and ideas of their own. Unless you are an infallable supergenius (you're not) they'll have good ideas that you didn't think of.
 
-If they don't care about the company and their work... why are you paying them, again?
-
 ## If Data Integrity Matters, Use Everything Your Database Offers
-
 Use every data integrity tool your database offers. Data format/length constraints, nullability constraints, foreign key constraints, and uniqueness constraints. They are faster and more reliable at the database level than the application level, and will remain consistent across apps if you've more than one app writing to this database.
 
 If your database offers these constraints and you think you don't need them, rethink your relationship to the data. Perhaps you don't care about your data as much as you ought to. Perhaps your data's correctness truly isn't thaaaat big a deal. If not, consider a more lightweight database, such as a time-series database or other "NoSQL" store instead of an RDBMS.
 
 **Corollary:** Framework of choice treats these constraints as an afterthought? Maybe it's a good framework in other regards and still worth using, but you should view all of its other data-related decisions with a very critical eye. How many of those are wrong, too? (This is about you, Rails)
 
-## Your Developers Should Talk To Potential Hires
-
+## Your Developers Should Be a Part of the Hiring Process
 Want to demonstrate to your developers how little you care about their opinions, experiences, or talent?
 
 Hire a new developer without talking to them first.
@@ -135,5 +125,3 @@ Hire a new developer without talking to them first.
 Or, you could involve them in the hiring process. Discuss the values, skills, and traits you're looking for in a new developer. Perhaps the new position involves skills or interests that your existing team already has, and you just didn't know it. Great time to learn about your team's interests, and the skills they developed while you weren't looking!
 
 Once a candidate has passed their initial interview (they can write [fizzbuzz](http://wiki.c2.com/?FizzBuzzTest), and are seriously being considered for hire) let them meet the team. This helps your candidate *and* the team feel valued and comfortable.
-
-**Observation:** In general, asking for and listening to advice from others is one of the most powerful ways to demonstrate your belief in their worth. Listening to someone is not a binding obligation to do what they say. They will be fine with that. Reasonable people don't want to be slavishly obeyed, but they *do* need to be heard.
